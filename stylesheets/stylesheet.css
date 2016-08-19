@@ -1,12 +1,6 @@
 * {
   box-sizing: border-box; }
 
-nav ul li {
-  list-style-type: none;
-  width: 150px;
-  float: left;
-  }
-
 nav ul li a {
   text-decoration: none;
   color: black;
