@@ -12,13 +12,13 @@ header {
   background-color: blue;
 }
 
-#box2 {
+#navBar {
   width: 800px;
   height: 30px;
   background-color: green;
 }
 
-#box3 {
+#content {
   width: 800px;
   height: 500px;
   background-color: yellow;
