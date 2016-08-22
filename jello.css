@@ -6,7 +6,7 @@
   text-shadow: 5px 5px 5px 5px;
   }
 
-#box1 {
+header {
   width: 800px;
   height: 100px;
   background-color: blue;
@@ -24,7 +24,7 @@
   background-color: yellow;
 }
 
-#box4 {
+footer {
   width: 800px;
   height: 30px;
   background-color: blue;
