@@ -1,3 +1,8 @@
+wrapper {
+  width: 800px;
+  margin: 0 0 0 0;
+}
+
 #myFancyText{
   color: red:
   font-weight:bold;
