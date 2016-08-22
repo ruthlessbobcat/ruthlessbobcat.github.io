@@ -1,3 +1,7 @@
+body {
+  background-color: #e8d8c3;
+}
+
 /* WRAPPER...this wraps the document, centers it, etc*/
 #wrapper {
   width: 800px;
