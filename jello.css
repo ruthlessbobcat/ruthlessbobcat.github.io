@@ -1,45 +1,72 @@
+/*           RESET...           */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
   background-color: #000000;
 }
 
-/* WRAPPER...this wraps the document, centers it, etc*/
+/*            WRAPPER...this wraps the document, centers it, etc           */
 #wrapper {
   width: 800px;
   margin: 20px auto;
 }
 
-/*HEADER*/
+/*           HEADER           */
 #myFancyText{
-  margin: 0px;
   padding: 20px 0 0 20px;
   }
 
-/*HEADER*/
+/*           HEADER           */
 header {
-  width: 800px;
+  width: auto;
   height: 100px;
-  background-color: blue;
+  background-image: url("headerimage.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-/*NAVBAR*/
-#navBar {
-  width: 800px;
+/*           bobList           */
+#bobList {
+  width: auto;
   height: 30px;
-  background-color: green;
+  padding-top: 5px;
+  background-image: url("headerimage.jpg");
+  background-position: 0 -100px;
 }
 
-/*CONTENT*/
+#bobList li {
+	display: inline;
+	float: right;
+	padding-right: 20px;
+	color: yellow;
+}
+
+#bobList a {
+	color: yellow;
+	text-decoration: none;
+}
+
+#bobList a:hover {
+	color:yellow;
+	text-decoration: none;
+}
+
+/*           CONTENT           */
 #content {
-  width: 800px;
+  width: auto;
   height: 500px;
   background-color: yellow;
 }
 
-/*FOOTER*/
+/*           FOOTER           */
 footer {
-  width: 800px;
+  width: auto;
   height: 30px;
-  background-color: blue;
+  background-image: url("headerimage.jpg");
+  background-position: 0 -150px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
