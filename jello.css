@@ -1,8 +1,10 @@
+/* WRAPPER...this wraps the document, centers it, etc*/
 #wrapper {
   width: 800px;
   margin: 20px auto;
 }
 
+/*HEADER*/
 #myFancyText{
   color: red:
   font-weight:bold;
@@ -11,24 +13,28 @@
   text-shadow: 5px 5px 5px 5px;
   }
 
+/*HEADER*/
 header {
   width: 800px;
   height: 100px;
   background-color: blue;
 }
 
+/*NAVBAR*/
 #navBar {
   width: 800px;
   height: 30px;
   background-color: green;
 }
 
+/*CONTENT*/
 #content {
   width: 800px;
   height: 500px;
   background-color: yellow;
 }
 
+/*FOOTER*/
 footer {
   width: 800px;
   height: 30px;
