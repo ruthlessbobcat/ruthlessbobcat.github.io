@@ -26,6 +26,7 @@ header {
   background-image: url("http://whd.erth.biz/wp-content/uploads/texture/Shutters-sky-blue-window-wood-texture-1366x768.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  background-position: 0 -50px;
 }
 
 /*           bobList           */
