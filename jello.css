@@ -22,7 +22,7 @@ body {
 /*           HEADER           */
 header {
   width: auto;
-  
+  height: 200px;
   background-image: url("http://wallpaper.zone/img/5371006.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
