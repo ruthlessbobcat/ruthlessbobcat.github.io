@@ -42,7 +42,7 @@ header {
 	display: inline;
 	float: right;
 	padding-right: 20px;
-	color: yellow;
+	color: black;
 }
 
 #bobList a {
@@ -51,7 +51,7 @@ header {
 }
 
 #bobList a:hover {
-	color:yellow;
+	color:blue;
 	text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ header {
 #content {
   width: auto;
   height: 500px;
-  background-color: yellow;
+  background-color: grey;
 }
 
 /*           FOOTER           */
