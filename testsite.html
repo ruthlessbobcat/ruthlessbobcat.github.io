@@ -1,125 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
-  padding: 0px;
-  margin: 0px;
-}
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
-#header {
-  background-image: url("http://static.panoramio.com/photos/original/23585514.jpg");
-  height: 200px;
-  background-size: 100%;
-  background-position: 0% 15%;
+    box-sizing: border-box;
 }
 .row::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-[class*="col-"] {
-  float: left;
-  padding: 20px 10px;
-}
-<!-- For mobile phones: -->
-[class*="col-"] {
-  width: 100%;
-}
-@media only screen and (min-width: 450px) {
-<!-- For desktop; -->
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
+    content: "";
+    clear: both;
+    display: block;
 }
 #wrapper {
-  width: 80%;
-  background-color: white;
-  min-height: 1000px;
-  margin: 0 auto;
-  padding: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-image: url("http://static.panoramio.com/photos/original/23585514.jpg");
+    color: black;
+    height: 100px;
+    padding: 0 0 0 5px;
+    background-position: 0% 15%;
+    background-size: 100%;
 }
 .menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: DarkGrey;
-  color: #000000;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: darkgray;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
-  background-color: Grey;
-}
-a {
-  color: #000000;
-  text-decoration: none;
-}
-h1 {
-  text-shadow: 1px 1px #FFFFFF;
+    background-color: gray;
 }
 .aside {
-  background-color: DarkGrey;
-  padding: 15px;
-  color: black;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  line-height: 1.5em;
+    background-color: darkgray;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-footer {
-  background-color: DimGrey;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  padding: 15px;
+.footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 500px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
 </style>
 </head>
-
 <body>
 <div id="wrapper">
-
-<!-- Header -->
-<div id="header">
-<h1 style="font-size: 5em;">Grand Rapids</h1>
+<div class="header">
+<h1>Grand Rapids</h1>
 </div>
-<!-- End header -->
 
-<div class="row"> <!-- START OF FIRST ROW CONTENT -->
-
-<!-- Left side content -->
+<div class="row">
 <div class="col-3 menu">
-<ul><b>
-  <li><a href="#">The Flight</a></li>
-  <li><a href="#">The City</a></li>
-  <li><a href="#">The Beach</a></li>
-  <li><a href="#">The Food</a></li>
-</b></ul>
+<ul>
+<li>The Flight</li>
+<li>The City</li>
+<li>The Island</li>
+<li>The Food</li>
+</ul>
 </div>
-<!-- End left side content -->
 
-
-<!-- Middle content -->
 <div class="col-6">
 <h1>Grand Rapids</h1>
 <p>Grand Rapids is the second-largest city in Michigan, and the largest city in West Michigan. It is located on the Grand River about 30 miles (48 km) east of Lake Michigan. As of the 2010 census, the city population was 188,040. In 2010, the Grand Rapids metropolitan area had a population of 1,005,648, and the combined statistical area of Grand Rapids-Muskegon-Holland had a population of 1,321,557. Grand Rapids is the county seat of Kent County, Michigan.[6]</p>
@@ -128,25 +105,22 @@ footer {
 <p>A historic furniture-manufacturing center, Grand Rapids is still home to five of the world's leading office furniture companies, and is nicknamed Furniture City. Its more common modern nickname of River City refers to the landmark river for which it was named. The city and surrounding communities are economically diverse, based in the health care, information technology, automotive, aviation, and consumer goods manufacturing industries, among others.</p>
 </div>
 
-<!-- Middle content -->
-
-
-<!-- Right side content -->
-<div class="col-3">
+<div class="col-3 right">
 <div class="aside">
-<h3>What?</h3>
-<p>Chania is a city in Michigan.</p>
-<h3>Where?</h3>
+<h2>What?</h2>
+<p>Grand Rapids is a city in Michigan, United States.</p>
+<h2>Where?</h2>
 <p>Michigan is in the United States and is surrounded by the Great Lakes.</p>
-<h3>How?</h3>
+<h2>How?</h2>
 <p>You can reach Grand Rapids by driving from Chicago or Detroit, both of which have major international airports.</p>
 </div>
 </div>
-<!-- End right side content -->
 
-</div> <!-- END OF FIRST ROW CONTENT -->
+</div>
 
-<footer>This is the footer, where you can put important information like...<em>who built the site</em></footer>
-</div> <!-- End of wrapper -->
+<div class="footer">
+<p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+</div>
 </body>
 </html>
