@@ -1,146 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ruthless Bobcat</title>
-
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  background-color: black;
-}
-body {
-  background-color: white;
-  width: 90%;
-  margin: 0 auto;
-  min-height: 800px;
-}
-header {
-  background-image: url("https://photos.smugmug.com/Michigan/Grand-Rapids-Prints/i-jDLHGzJ/0/X2/michigan.grandrapids.bw.duskBW2x1-X2.jpg");
-  height: 200px;
-  background-position: 50% 30%;
-  font-size: 2.5em;
-  padding: 5px 0 0 20px;
-  text-shadow: 1px 1px 3px white;
-}
-
-nav.top{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-image: url("http://www.publicdomainpictures.net/pictures/70000/nahled/wood-grain-texture-iii.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border: 1px solid black;
-}
-nav.top li {
-  float: right;
-  list-style-type: none;
-}
-nav.top li a {
-  display: block;
-  color: white;
-  font-weight: bold;
-  font-size: 1.4em;
-  text-shadow: 1px 1px 1px black;
-  text-align: center;
-  padding: 4px 16px;
-  text-decoration: none;
-}
-nav.top li a:hover {
-  background-color: gray;
-}
-nav.left{
-  width: 18%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: darkgray;
-  float: left;
-  margin: 0 5px;
-}
-nav.left li {
-  list-style-type: none;
-}
-nav.left li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-weight: 600;
-}
-nav.left li a:hover {
-  background-color: gray;
-}
-div#middle {
-  width: 60%;
-  float: left;
-  height; 100%;
-  min-height: 600px;
-  padding: 5px;
-}
-aside {
-  width: 20%;
-  float: right;
-  padding: 8px 16px;
-}
-footer {
-  border: 1px solid red;
-  text-align: center;
-  clear: both;
-}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
 </style>
-
-<script>
-</script>
-
-</head>
-<!-- END OF HEAD -->
-
-
 <body>
-<header>
-<h1>Ruthless Bobcat</h1>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-opennav w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-navblock w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a class="w3-padding-large" href="#">Link 1</a>
+    <a class="w3-padding-large" href="#">Link 2</a>
+    <a class="w3-padding-large" href="#">Link 3</a>
+    <a class="w3-padding-large" href="#">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center w3-padding-128">
+  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+  <p class="w3-xlarge">Template by w3.css</p>
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top">Get Started</button>
 </header>
 
-<nav class="top">
-<ul>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Yada yada</a></li>
-  <li><a href="samples.html">Samples</a></li>
-  <li><a href="index.html">Home</a></li>	
-</ul>
-</nav>
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
 
-<div class="row">
-<nav class="left">
-<ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Samples</a></li>
-  <li><a href="#">Yada yada</a></li>
-  <li><a href="#">About</a></li>	
-</ul>
-</nav>
-<div id="middle">
-<p>A bunch of random text blah blah blah!!!<br>A bunch of random text blah blah blah!!!<br></p>
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
 </div>
 
-<aside>
-<h2>What?</h2>
-<p>Grand Rapids is a city in Michigan, United States.</p>
-<h2>Where?</h2>
-<p>Michigan is in the United States and is surrounded by the Great Lakes.</p>
-<h2>How?</h2>
-<p>You can reach Grand Rapids by driving from Chicago or Detroit, both of which have major international airports.</p>
-</aside>
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
 </div>
-<br><br>
-<footer>
-The footer, where you put the credits and stuff like that.
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+   <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+   <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+   <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
+   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
 </body>
 </html>
